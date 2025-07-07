@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: #ffff;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #1c1f25;
+}
+
+
+.header {
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .highlight {
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #f6cf10; 
+  }
+  
+
+
+.searchBar{
+    width: 100%;
+    display: flex;
+    justify-content: center;      
+    align-items: center;     
+    background-color: #343741;
+    height: 80px;
+   /* justify-content: space-between;*/   
+}
+
+.searchBar input{
+    border: 0;
+    outline:none;
+    background: #ffff;
+    color:#0a0b0c;
+    width : 50%;
+    padding: 10px 25px;
+    height: 40px;
+    border-radius: 30px;
+    /*margin-right: 16px;*/
+    font-size: 18px;
+}
+
+.searchBar button {
+    border: 0;
+    outline: 0;
+    background: #646978;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;   
+}
+
+.searchBar button img{
+    width: 16px;
+}
+
+.informations{
+    max-width: 70%;
+    height: 540px;
+    display: flex;
+    margin: 10px auto;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #1c1f25;
+}
+
+
+
+.movieImgContainer {
+    margin: auto;
+    flex: 1;
+    display: flex;                
+    justify-content: center;      
+    align-items: center;          
+    height: 100%;                 
+}
+
+.informations img {
+    background-color: #ffff;
+    border-width: 15px;
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;
+    padding: 5px 5px
+}
+
+
+.movieDetails{
+    margin: auto;
+    flex: 1;
+    text-align: left;
+    line-height: 2.5;
+}
+
+.movieDetails h1{
+    margin-left: 25px ;
+    font-family: 'Anton', sans-serif;
+    font-size: 32px;
+    font-size: 25px;
+    color:#f6cf10;
+}
+
+.movieDetails h3{
+    margin-left: 40px ;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    background-color:#0a0b0c;
+    background-size:cover;
+    padding: 0px 5px;
+    display: inline-block;
+}
+
+.movieDetails h4{
+    margin-left: 40px ;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+
+.language{
+    margin-left: 40px ;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    color:#f6cf10;
+    font-style: italic;
+}
+
+.imdb{
+    margin-left: 40px ;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    display: flex;
+}
+
+.imdb imdbRating{
+    flex:1;
+}
+
+.imdb imdbVotes{
+    flex:1;
+}

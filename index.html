@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+>
+</head>
+<body>
+    <div class="header">Cine<span class="highlight">Nerd</span></div>
+    <div class = "searchBar">
+     <input type="text" id="inputBox" placeholder="search movie title" spellcheck="false" >
+    <!--<div class = "search-list" id = "search-list"></div>-->
+    <button onclick="searchMovie()"><img src="images/search.png"></button>
+</div>
+<div class = "informations">
+    <div class = "movieImgContainer">
+        <img id = "movieImg">
+    </div>
+    <div class = "movieDetails">
+    <h1 id = "movieName">Movie Name: </h1>
+    <h4 id = "year">Released: </h4>
+    <h3 id = "genre">Genre: </h3>
+    <h4 id = "writer">Writer: </h4>
+    <h4 id = "actors">Actors: </h4>
+    <h4 id = "plot">Plot: </h4>
+    <h4 class = "language" id = "language">Language: </h4>
+    <div class = "imdb" >
+        <h4 id = "imdbRating">imdbRating</h4> 
+        <h4 id = "imdbVotes">imdbVotes</h4> 
+    </div>
+    <h4 id="awards">Awards:</h4>
+    </div>
+</div>
+
+      <script src="script.js"></script>
+    
+    </body>
+</html>
